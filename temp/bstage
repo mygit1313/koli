@@ -1,0 +1,2 @@
+#echo ".env.staging" > /tmp/envfile && npx react-native bundle --entry-file='index.js' --bundle-output='./ios/main.jsbundle' --dev=false --platform='ios' --assets-dest='./ios'
+echo ".env.staging" > /tmp/envfile && date && rvm use ruby-2.6.5 & cd ios/ && fastlane gym APP_NAME:"KOLI QA" PROFILE_NAME:"koli" --export_method ad-hoc --scheme "koli" --clean --export_xcargs -allowProvisioningUpdates && cd .. && ls -lah "ios/KOLI QA.ipa" && date && open ios/

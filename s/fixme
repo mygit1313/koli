@@ -1,0 +1,10 @@
+rm -rf android/app/src/main/res/drawable-mdpi
+rm -rf android/app/src/main/res/drawable-xhdpi
+rm -rf android/app/src/main/res/drawable-xxhdpi
+rm -rf android/app/src/main/res/drawable-xxxhdpi
+rm -rf android/app/src/main/res/drawable-hdpi
+
+rm -rf android/app/src/main/res/raw
+
+grep -rl "s.dependency 'React/Core'" node_modules/ | xargs sed -i '' 's=React/Core=React-Core=g'
+

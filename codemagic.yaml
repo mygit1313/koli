@@ -1,0 +1,165 @@
+workflows:
+  react-native-android:
+    name: React Native Android
+    max_build_duration: 120
+    instance_type: mac_mini
+    environment:
+        vars:
+            GCLOUD_SERVICE_ACCOUNT_CREDENTIALS: Encrypted(Z0FBQUFBQmctUV9UNTdBOGF1Wm0tMFVNYm85TG80TFJLd09CUUlBSWswVkhRZFNkNFFrQldhXy1QVlRxNDhzTnUwbzhVUlJsNmhtMm5OVFZFN1NHQmgtNy1qMFZJZW5fR2ttWWNKUUdXZDJCSWtBWUZxX290QXV4Mk85a0dWRDZJaFNDUkpHLW1RMXhONWw1aE03Q1lEQnBhcFhTRjhkSVBiMDhSdkpZN05NallrcjFaM2NXeTVXSjAxY3Z1Nkl4THZBSUpEaHViZTk2a21OWnBiYWhucHJON3lRWExEbkc3dDVUMi1rSmpINExqQ3Z4R0NmaHItY1V6d2hwc0FQTEVUZjhKS0piQUhDV0xxMjRIeXh5UV9NaXY0cmJlem5tSU11eC1wc3o3RjhWSHRSTm1LV1RrU0pidGkxX0NCZE9ySE1BZ2lDQ2xnczA5bkx6RFowWTh3ajdYNlhpcmpmbk9Wdmx6WkotbnBrVFVWc0ZZQUZsTGE0Z3ZyV1N3X1lKTGRVSVdjUnN2c0Zjc2g0Mzk2U0R1VjlPbnc4anlVZ1UxSGh6VWFQdkZvOTlZSE1uR09Ca25LOTRlRUV1akpjaHhTNlBjSzZJNTV1YUJ0bnByYzduOVdwLVBrMGdUejZpV1dQY2ltaFFETHZEdFRNNUdzYlJGdkMxZjdkeHpFYzJzVlIwVTBHaWZXQjVycFZZYjFkR3ZETXlaNlM5SEdOa1psVEJNV1VBMkJUd1gtenU0eDhEVWxzWmEyUW9EV1F3MTc5RmU4UV9RNGFoQlFMUUNFOVU1RU5ONzlEckFrN3ZJUkhWNUZacWNMTjNOZVM0US00T0l2WGxGb0ViaERuUE0xZEFaSzlOVkxrSi1NS1RvZWg3d0JwWE91TkRnbTVwUGhGbmkxcVBhSnVLaHBybzhTNWRRZWx6N2p1TG9QOUQtblgxcnBMbERLNEZ4SDR0NWdGRHAtbGZaVzRNMFlicEVVeDlJOHZGUnUyN0lkZWRpcHQyT0tOak5YSkF4R01NMVpoUUFXUjBpOEcyUkpyeF9zNkRrN1VJX2dPUXFTTE50NlpqV0dwYVNnSVE4UnhoeEFybkcxMkdfemhqVlVieUZsWWhlRW9WQlJMa2dPNG83cEwzV1BfTG9aUDNhbEhiQ3J4b3MxM09pMTNXYWNuVzhEVUlQclAtVm5JallXSnFKMy1Yc2VJVUlQcHludDZQbzdQU2JRWWNXcl9GMkcybHlpaFZRbWc0X2Z6aVF0bHNFOTNlQ1IzZ0YyalRZSlVBTEJweGlfbmtzQ3pSWk9aZFBacjJwZWt1ZTY2X205MFA5cXhPb1V1ZUZOV0VJVzJRRVpBY3RXblBnWjdHRXB1SVhERG5BdS02cGNYNFd1ZlFOUlkwazdtM09FRXFPZU03SjdHWDlBTWJ3dlZzU1A2RnNEYjlfU2thRkVlamlXbzh4M1lmSE81WDJJSjJyR3hnNnFySXNSa1VGeHNCVEJVX3hHc1B6dTB5SUZfWUZKcnRzU1NtbVdZaXhHT2FWX0d2UkRUX2ZMaGZ0d0cxOU11Vm5HLWJpbjJnMWJnLVFvalAtUWVpZmp5aENtajdLdmVtZ1o2ZVNPVmUzdWVtdEpUR2hseE5ta3BPdTN3WE4yX1h6M01DZEt4dE1nQTJqSFE4aE1tMVJZbTI5dldnMDJVVDFDQ05YRDhMaHNWYU9rSlQ2QkxQdGNOS296Q01KV0Q1Y3dyREYwZ2p1RTE1bm1HRmJKNDdKbDdkY3NvT0dXWnBEV1JteHNsUko2WWY2Uno4V29PVDctUlVNUnliaTdSRTFTcEVNbFdnUExRX2NoUUdsX2F0VWpQVXktci1meVZjbnNQV3JHVm5JQzIxaWw2Yll3NWdVUU0zYXZvQUFmaHRwQWpMMHFyb04yT1VRRDh6YlptcjhxZEVXNWNEQ0NrU2ptdjhyakh2ZVpXRkdubk9ibGJCZktTeWs4WXdVTEJPaUtwdllvZExaMXh1Z2xYZVgwWDBrcWFqaHdSVmE2cUFwNGx4b05oYVRaa3Z4T05vNllxNWtrZXc4bE5OV3dyT1VYX2VtRFhKVURvMGpZTlVOR3VKYkYwSHg3d0VCVXBIRDBSSlJlcm94ZjZMUmJTUi1QYkFaRnJhd0h1bzR2U0IzaTh2M0FrNkhVUThROVVmS1g0d0ZkenNtdXV4ZTB0VElHRjNpYU40aGM0SDVWRzNqRjVINW44QWlmZG9SZnRVOEV6TFBENkREa1VZUWJnWmFHbHRXQXdCQzJSaHdpWTRPUGNsNS1vX1VUVG10SlVrR2FGU08xZ2RXS3BCY0RlUDJrUDhUNTlNYWlzZ2tfNUlMRFNGalN1VFRUMkl1eTdaYUg2Y0t4S01jRWdwV1BJWW5lYTJuZ0YtMEhlWnRyV2UxX2ZBcEdRV3YxM0RPWEpqNV9nQk5yeXJ2bkVMX2hlaFVseEJUR3lKb2MyS1lhVkpMM05IaFMxOUI1QXVXbVpuWDBCWUVSeGU0Q0Q4V1FvQ0tCMXBjN19aUWpCVmFwRU0yRUo2TlcyUEFWbHFXdURtakZDeHZTWG0wTjh2YUNzNncwbVZMVGM5LVI1OXdyVkI3U1ZSSFJIOU5hc1E5S2hGaGRZb254TWdpWDFpUnMtaE5VV1VuVHpDZVdaREF5NzFjQ1lwU19zeWpKZUViMnprTjZOM1dMbDBZb0NkWms2eHVkNjl2bVl0eTJON2R5ZXpFNW5aMlJITmRYYUUwMDlJZ18tZHVQNTNWS1gwNGxmUjdMUS1qYWlZamdtalV4YU1YZHlvR0VhX29hRXE3Wm1aeGgtME9Zam83RWxZRDk0RE5mRXRuTVNoQTN3R0RoOG9RM2ZqcmQ2MmxQZ0FXb2wxN2VUYkw2WjhKRWU5ZUlZekhwMGU2UDRuaXZOb2ttYzVaejN6NHcyd0pHVUtnY28xSnJSWWdqMW52QWNZVHl3ZlltQnZlZjBFQm9ZZDlZY3A4S2YwTEZQVGp2RkNfV1c4VWJ0STg0bGpsWUdSZlJHU1J1OWxhUEpWT0h3dFZFd2ZZZWtackdkMFJjLVY5bXN0QldUcjVBMlRLX3VPVVlBbkdOeFZsSEwzSG14VWphMVVtNGVEamZja2o2ZGNxMjU2ZUE1ZGo0YzBMN1VvMl9uUjM4ek90RjdCdUhSNUx4RW9wR1Q5ZWtwZnNQdzdQLUJObEJoZFdXMlJMeDZJcWtjX2NBRmlrQWxuYTVmWDdRZnpiVHV5M0RHV01EQnFOcGQxVHFzTjZJeVJLUnc0OW9oV0RwUzg0SEFkRW5SR1BpUXFxU0xUMVIyNHc4cnhPeGU0TnBUU0tfeGxwdXVyN0g0RHJzQmFQSTRBRjdZZ0hIbmw5cHdIWDJlVWsweDUzUWdNcndtOTVGRFBFVVFYUnBZRzcyZEZjV3cxNTVPYTFVX3FEVjNVbTQ5MWk3TWU1WkVQLXJSUlZGNEFOYTJ3R1JWUjNiQlYwdXAtZ0pwS3dqRExmeEZQSDMyTThDYjFHb3NTcmVDdVd0cG1BSGh3c1JaYXdVbkpUdE9OSEJ4ekFwNGh6elMwQl9WUTdDX1RyejUtbUhNZkVJSzJiWHBSSUdLVW1qU0lCdTVPUi1DWTNtWkxXVUtOYXpHeDNBajlBUTAxOGphUkRDdDIxRk5fc3E5bXQyTklSTnBMSGplUy1nYl9rNW5jNWNUVHhGUUYtejZoYy1Tc2xBZEFvUWQ1R0JCdlhWOVpfQkhfWENLU0Q4TFB6eEE0aHdjcG1ob2dHdUR4eEF3VjBKTHNpY3Qtd0dzQWZxMnVIU2dUMWZxZFFPTHZpUGpoZkRjYXVJZ0VSQWh1VnYzN3VkaHNiLXFsdXBOSW9kTTdlMXI2MW42Umc1cTdSaTdJZVBmWWZvcGcybVVzTGZocWJPbWhiUkN4ZzJwYUFpMC05ZlZGNThIYlprSUZQSGhTQWkzZ0puMHhxWTR3RzBaUTZpanJvRjhLNHJwVVdrSm9ibGt5RTM4UUVqYTRSbGlZRUYwb2VPRW4ySGNLOEt2WUtaU0hBNFkzY0ExZ3hnLXlpS1pVNlliM2tKYkNBeVFTdFV1b1JPRm04ZWFTRVpYUk9rSThTLWhhX2hVR2hRdHNkalhCblVSRHFKakJXZWdmVEJmUVJrZlVUcWM2eUpXV1d4azFjWTVVQjVwbjdUT1RZclNrcXVBbGZMR0xSby00UGpBWllyMFFQVUpfVGZPdDN6UWRHTnpvZzRJRVV4OFhpeXV6ajA5RnI3d0wwcTZOMTFYYVZ6Ymo=)
+            PACKAGE_NAME: "co.koli.android" # <-- Put your package name here e.g. com.domain.myapp
+            CM_KEYSTORE: Encrypted(Z0FBQUFBQmdfS3AwVzQwUk1xLVlmUjVucUpoWnFhYjF0WWZLNGREQjRyNW11ODFad3NLRW9xbXQ3MFNoVWJsajlESXg5VUhLUkQ4VWxHMjhSYmlaUVd1MXNITE1xY2FzSDlHVTJqQ194OFZSa3JhWnFSZkhkTW1kZkJiRXY1UEg2dG9ScnRqaDJlMS1HdnNqVGF5UGlub3BRZjRQYUlxYkhCWTFFcENfY2JMeFh0Y3lOVlZLTlBJRW1xa0M2UFRIY1NTZU9jbTc5OGNSdzQwMzhaRzFZb0lOdEpvcEhuSlJlcTR3NnVlMUhhaTZvWlBCc0dVdEZ0YVE1TzJpeWxXT25uQjBIMHpCdElrd21TNWh1VGh4MWV5Y2hMbUJadDM1bW5RVmtEczRIamJoVWx1Rks4TWpRXzNzSFQwaTFHMDU1SFRRbGxXckxMTTlIMXBnS0lDSno4alBpdlBjZ1JvNVUtcjRTZU5tb2tTRk95eXNiVkdnRzVBelBKeDFRUjVyYjlRcUYwckNJMnBWNmNVU0RXbzJxQ0NmbEcxak5SUWFpSHplZFd6dlhYaFdlN1luMmV5YjEwUkwtWFRnc2MtVndFbXNlRVpuU0xmTXM4N0dkV0F3eGpacVRRejFkdy1HcW1lc1dndFRIaWY3OGZRaVpVS3ZaUV9EekEtSU40REVFVTNPSjRON25wZ0NYbzBpMnZvY0ZJRmxZUDV1b2h6eVFlM2JQRFpoSERFWEpZSzFwVHR0OS1oNmVfY3lhUzFnVDVReFVDbDY5MmtndmZKV0lWY0NkZFlfN0hybXJtVG5SMDRvaWVBWVlTTTBnc0dYUlZfeFBBVWtZUU02MElfS2NDVjdTTnlma3hxamg0NXNPOTI0YnpabU5ubHRBZGl6RHl0UkxsYzRoUDhhMlhON3U4Wm1naXVRWXpQOXFCdWd1X1VUV09OVTI3eFpJUm9CdURhS00tNXh3cmhhTm5tYzVaemU5TTJCbl96SDlfd3RFUEIzYmdHQm9HVTc4MnVieHhMemE1eDUwRUlkbkZ3SFF6WHkwYVN6VDZoelVLbURUaS1QSWJtdW5XNkNfLS1BenJZeFRkT3Yyb0ZKMmV0TjdwUzZsSHoydnZGX0xtZUlaaklaYTlycnRSck00MThSd0Vqd242c3h4cjNiRFh0bE9aRVZ5SjY2emNTYXJDRlg2TDJHOWdtT3l3Nl9xSHQ1VWtRZ2FRcGtnOTJzLXVvSmZGaHNURXZUSDUzOWpHT2lNUUVLTFhROWFFWDZiZ25iRFFiYnVKNEJVSWN2Z2FTZUlOMFhiclFjV0R4eWtQOWlBaFN2VE5MUDNGTURGUXBNT0FMZ2lGQ2lKRTY1VFViYlRnVnJQWjN6MDcwQUpJay1hTGI4bjRLRmppUG5nTnQ5X1JlN292ZUN2NDJtMHVSZmVBZk1vSEtyTmhaV3llcVVEZ1JXOHZkSnFtcnVPdld6UkFidW5SZzZkRFBfeEVTY0xQV3N6TWtvTng1WUdoaG9oLXRyY1pBamdZc0xoRnFkMnlyWjRGY2RfV3FpWlVGWkpyTWFkc0tJNXFrb2N3SzhRUkNiUnBadFc5X0VLUWxobHFKQnFOa2VpWlplRWRKS3hKZG9VcncxazJiMks3dzlfY2hTTVhqZFJCaWpyYVhRckI0UjRkRkdselR3NkNMb0ppZnlSZUYyRmYyZGFRWGJ3Tlh0SjNLTURXMHJOR25nOUc1d0ZJa0NJOEhZLTdvSlFJQVBPUUxFQ0M2ZUlrRXBIbHd5YXlwQXBnRU40RTItVHg5RTE0d0hhTGpvRmJxUEF3SlJORFV1enRVWnJKUnlVejdCZDZQaG5TbWJxdTlFUFEtdTJ5eGVtVFFkTkVIems1Z002TnlLZE1mUU9IZjM5eEd4dHZ4MkJzV3VybzVSdXlQQmw5VUNmbWpsZ0FqLWhlNjFzT1lDS09MRHdOYVJlenl6dWtFTzhxYmJPYmVCTFdzZkE3ZFEtUkQ0aktYX2ozYjFfclU1WUFnQkJTcXpDODRqakhHWG5DUEhFU1lGeUNqV3M0bUNSbVpJYmZoUnZzcnlkbmVqZFMzXzkwTFppcUdNMGxNTXFGamxKcWlpV0xpLVE3UU8tUWpUUnFjakMwQjhFTnl3aVdFREJfam5ncjZfRndUanNmOERBa1RycjR2Q2NaWHFHZDViZS1uY2phS1NGOEJuWkV0LU5CQm5OWWItQVZVc0VpQmlra0ZVWmQ4NG1sZHFWRDF3M0N2OUpyMmJibmU4ZkROS3RZRkVSOElYbFQtcU5KaEhfNmhKMUVOa21ydklQYXhyX0lBXzBWRS1Tc1o4WEtGWG1TWkpJUFM0Ym1qTUVucnJTYWxXNS14U1c2VzdYSHVhRjN5QUwxX1Z0UExSZUNYZ2QxUFM1aDhFY2h1bGh1Q0p4R0pmRlRkaW5nNWZXaTlIWmc0OF9XcnY5TDg0QjdiYXN4NEJJYWpuNE5NYUNzeDBOelhFbHNUYXRBOXRmOS1tYmk0NTdyTlEwWTdRcFBselNvUHR0VThlXzBJUmFBQll3YzN3WXhjcmZSaGpLaXdiaUJMTkpsUnltV2JNb3BpYWVVakg4b2xNSXhHRGxxb1E1NjFKQWpnaUtUeG1aZGlkMG5MSXFUZHNoYmdqRnpyX0tkajMzNTJFaEpWamRJTFpvZThVM242aHo2NW9vcldfQlIzeC1YYXBmQ0VVZzNpblZiLThNMGNLRVZSZE5DZTN0SFZoUHo5dEVXRUV5NFAwVlBnc3JUNWhSeXZvdGl3dDExU2RMQ1lrSnhPRnpqbFVWSHp4Z1hKa3haejh4Q1EtZzBlV0JzckRqWUxabWJ2SFVna2t5OTg0a2N4bllyZllWOTlqOTZPVG9leXR4azNCMnc3dUZBSkdnS2JsUlFIcGcxUUZ3T2xMb1lxVGJ1dmNFVlVWbTV3bmxKMElrMnBfTXFKcEJwZFUxazNzTEZsWjhaS0NzODFIMmEzU2hWZUJ5c3BDN1NZTXdOVWRTejdSSE5MY0h2VlhObjVKcndhd1M0Z3F4aFVheWF4U3RaaTNFV2liaVRlaS1sVEZxNkpCbk44cmtoZnNndmpJVG9ZY3lWRnVrTm1pVTJrajNjd2VtOFlqVnFiVUhVc05pSzhDdmtxZHNJVFhwcHJ2bWYwalpkMWNPVVM4ajd5cDlRUHpSNFQ4bUxIT2Z1bTFUVy1mc3dBV0JNY1d5N2d3YzhQV2xrZ184ck1jZ1pTVnhmb0JOZlZuSWQ0RG5nLU1lcGtuZUd0a29mM2ZzY0pFSFl6MWRDN0p3NGg5RERRVFFVOEdpVG1NWEJkUXBVWjd6RngyN1Z2OVo5bVhoOHB6RC1HMHl3OGtpcy1xQVhoYlVsbWtIVzdPaHBHZ0pxOGhaQnk3Sm9rTVFSaWxqN3NhLUdmWlVDcjRZTE5hTFZaX0hmdEdSR19tb0RvNnpPVUtzR1lSeFQxV2R2QUlEazFWcWpjdktHMXdEOUtVb1EybGJmbTVaLVFKNDBiS3JITEJIRG9ISjNUU0pocmU4Z1BLY1lKN1JVV2Q3X19DUXcxY3REenQ5Q1FZM0w0bmVuLUpYbFBfQklrNEdfMldDc01Xa3lYZXNaa29PRVIzcWdYWkVsdVJWdE9fVGVtdWVib05LX2M3bWxCalRUWkxaMGdLcUVhNzJFaEdvRlVUMTA0MkotTjR5dG4zUTIzNjVKeG1JdUkwUkg5d3RreUkwRmRyLXlMNDZUMko4WkJ6X3JyeGlKY3NqMFhDcklQZWV3OUd2LUhiZGZENFFyNVdLVkxVaFdXVkZMazhCQ21hRmVmN0QzMzI2Z0V4aVdUdE9LMmgxVnhTa2VfNnlDd0d1aE1tcTFJNXF1OE9UMU9nblZncEFnNzM1cHN6NEI3bVZTUkhmaFZYYkRUdWgzdXhMV0dtTUlxUFhXUWdjQlBvWl9lZktOOFR4QlZPRjJmS2VfY3pVWEF1cHBoMnVmNjZjbFlwUU82SzBCUVNjbEdBV0JrZ2J3M0FHUWtFYjFHQ19VZnZFSnBGaFozemVlRnYtS2UwX1ZrSk9ING9QVm5aQnoxRUp5VnZxQlhMcnVjbXZEVnBIaXkwQkYybENrNXVodlNxRHZ0UG9ZREJiTndvWlppQkxpdkN1QzVHLU5jWFV1TnJMSGQ5V2xEYWlmQXRHMC1KWms2Q05ROG5Qc2xLb1RJNWkzVzg3a3pjUFo2YWIxWW12VGhScFVfREJjb01JY1NnRERoTWVCTmd1QjM3ZzBjTE1YSXN0SWhjSGxmeW44aldaOGZMMzFCNzRrRzQ4dzBRd0lHRjcwanYxVW5Gb2hGZ053V3phcW1kTzh5ZkQxYVRFV3ZnbUtTVUYySTI3X2tBQkR1YmZOTjBzVldSTkhUUUFYZ0hlWl9CUGo4OEp0Znc3a3BtNTB4N1htcm9qdzUzSDI2WWVhb3VKNU1UeGJtQXVUeWZhRGFubTVqR0tYWVJ6ZlRkTXJKeVRySE9RQ3RKZ19rdklqTC05V0hGS01kMElucFJBTEdaN3ZvVmlUQW5LUWxXSE5wU25KR0RJZjlZS3BPTDkwSEZNU25BX0czN283ejltM28zZ1hmbDJrLWZ2STk3U2dHRlVDdUczU1BFbjg3VnNCUU85eUN3X2FNUDdWTUJJc1JlbDFJZ1BKSXZfdmV4R0lhMWE3UWIwZlRqM0dlc01MUHhIaHBiUVg2SFRtQUhCT1BZS1NCT016SnljRWJkdFAxaGpvYzRWZ1NmVVdhcE5TT1BYREZib0NFODRlLWRvU2c3eWxtaVBWdEdkM3JvMXhMN1gzN1lDcEtjeGZRcFVKaGlna0drS2p1SUFIQlU4YnlBVVVpdlE4UGFpZmwzb3ZpNHBkX1J3b1B4TmlaRXE0dmp6SS1hVnhIRFZDWjl6YTl5dWVjSFFqZzY5TUpqaUNfblI3Y3pFR05vcVg5QzZDemU3VEFlQnRjR093aDR4OUxsUlRJa2tRckJ6bmR3NzZldmZqZW1yemRhRElBbFRXZUFwc00xUER1VmdLTnJ1RWRfNXdlRkNrVXFRanB3bl9pOUxKd2VhZ1QyQ1BSSVo5azlacklYc3dFX2xUZ2wzZUs0WlZkaXJlVmVUNUVtX09BVERjeFhSaUFVRGRCVTVaSklza0dVSWljNTNYZElNeW9wSklHbUtLS1k2QWVpcG00RVY5X01lZjF6eGpiTDFlZ3VGYlJuY19ocjdCNV9mSU5fXzdTU3ROWkpKOU5YVUsyYWN5eTZWS1ViWFp6OHlNallTSjYzaVEwblhNS256LUR6NURpbTRDM0cwT2FZSVlCWlNhc1FVVnFLVnliWlJjVGZfOTZGeWdEX0MxWlZjbkNaVmdtT3gzYkNjX3ltdll0U0NwSGtZb1p6N3NZUl9WQ3hWbzUxVkpVZTM1dDQ3bWJlckFmTW81WXFObEotWVRSYlk0WUU2TmZGZ2ZkenoxMnBrb1RqWjd5RTBqT3psTk1wd1UyTC1tU1hYVk1pN003LS1UWjlBTjVxUWtZdkJsVTdHX1RfMGEwWFRLZEc2cFV0MThySE9vVzFsOVFUMjZMSG93PT0=)
+            CM_KEYSTORE_PASSWORD: Encrypted(Z0FBQUFBQmctUXRuM0VvRWYxSEhNd2h3UDdSaDFoamRzTE5KcGNzNGtfU3NvS3V5cFA4UzRpSzhUQW10WVNSVmh2YXY3cHhhTU9NOXNscEwzRTh2ZVdqUThpZWlrSzYtUVE9PQ==)
+            CM_KEY_ALIAS_PASSWORD: Encrypted(Z0FBQUFBQmctUXVWVFVkbE9zR1NkOHgxS21GRzZGbHJkcHlfeG1RRXkxSXMyMTFuM25fYXp6RWdDdGhSX3Rhb0ZkSk1hTjNoRHBUcE52YTh5Wk9GU3h3ZGhycmRjTjJIRHc9PQ==)
+            CM_KEY_ALIAS_USERNAME: Encrypted(Z0FBQUFBQmctUXV2b3Vzdm5nNTEyQzg3eVNfeUU2YmR2NEpDbzRvdkdwVGxlZEVzanpPMXNpc2tWV1JMeTY0Qnd5bmlrTmFPSEJlWmdkbWcxaUJVTXdBMndGZjZvUG9rSHc9PQ==)
+        node: latest
+    triggering:
+        events:
+            - push
+            - tag
+            - pull_request
+        branch_patterns:
+            - pattern: develop
+              include: true
+              source: true
+    scripts:
+        - name: Install npm dependencies
+          script: |
+                            npm install
+        - name: Set Android SDK location
+          script: |
+                            echo "sdk.dir=$ANDROID_SDK_ROOT" > "$FCI_BUILD_DIR/android/local.properties"
+        - name: Set up keystore
+          script: |
+                echo $CM_KEYSTORE | base64 --decode > /tmp/keystore.keystore
+                cat >> "$FCI_BUILD_DIR/android/key.properties" <<EOF
+                storePassword=$CM_KEYSTORE_PASSWORD
+                keyPassword=$CM_KEY_ALIAS_PASSWORD
+                keyAlias=$CM_KEY_ALIAS_USERNAME
+                storeFile=/tmp/keystore.keystore
+                EOF                                   
+        - name: Build Android release
+          script: |
+            # Set environment variable so it can be used to increment build number in android/app/build.gradle
+            # Note that tracks can be specified when retrieving latest build number from Google Play, for example:
+            # export NEW_BUILD_NUMBER=$(($(google-play get-latest-build-number --package-name "$PACKAGE_NAME" --tracks=alpha) + 1))
+            export NEW_BUILD_NUMBER=$(($(google-play get-latest-build-number --package-name "$PACKAGE_NAME") + 1))
+            npx jetify && npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
+            ./s/fixme
+            cd android && ./gradlew assembleRelease
+        - name: zipalign the APK
+          script: |
+            zipalign -v 4 ./android/app/build/outputs/apk/release/release-*.apk ./android/app/build/outputs/apk/release/KOLI.apk
+        - name: Sign the APK
+          script: |
+            apksigner sign --ks /tmp/keystore.keystore --ks-key-alias key --ks-pass pass:K0l1K0l1!!! --key-pass pass:K0l1K0l1!!! --v2-signing-enabled true ./android/app/build/outputs/apk/release/KOLI.apk
+        - name: Cleanup the original release APK
+          script: |
+            rm ./android/app/build/outputs/apk/release/release-*.apk
+    artifacts:
+        - android/app/build/outputs/**/*.apk
+    publishing:
+        # See the following link for details about email publishing - https://docs.codemagic.io/publishing-yaml/distribution/#email
+        email:
+            recipients:
+                - user_1@example.com
+                - user_2@example.com
+            notify:
+              success: true     # To not receive a notification when a build succeeds
+              failure: false    # To not receive a notification when a build fails
+        slack: 
+          # See the following link about how to connect your Slack account - https://docs.codemagic.io/publishing-yaml/distribution/#slack
+          channel: '#channel-name'
+          notify_on_build_start: true   # To receive a notification when a build starts
+          notify:
+            success: true               # To receive a notification when a build succeeds
+            failure: false              # To not receive a notification when a build fails
+        google_play:
+          # See the following link for information regarding publishing to Google Play - https://docs.codemagic.io/publishing-yaml/distribution/#google-play
+          credentials: Encrypted(Z0FBQUFBQmctMjNCRjBJa01nQmxMaXJuSzdIUWZ0c2g0MTc5empoOVo2UlBNaE1ZYU1xOHdHYU80d0xhTHZIRWgxNm10R05aMzVOYzRnNUNEcGNzU3Q2cEJ6U194U1NGc1FYcUZJWnUwMExEaDZDT19YaWw4Q0xISVFyTklxV2Q0TmlWenNiOFNqUUpjOTNEUHFucXByc2pKMHZkQ0k5bExDZHdBdTItYWNCV1dfSFVCdXBSOUVQWjRoSWhsMmZaNGR4bGQ0bnNtQm9xZ1pWTmpWTHlQZUhUVkhsQW55THRjMnRaa0h3X0szbWxyWngzbTFadDlOU0hWZE8zazhZLXpNS25YNnRYdTl4OVlGMnYxWXpQY1NNYmNUb1VVaHlWZDBMWWNYTlBkLXFUclZ2VUgyMkFRVzAxVzI4RTNGVlBtekRXdHlYUnRPNE5Gb3lJcVZBclRmeFdBMEVja29lem5qVURiUFZDUTJFempxZW9INTFES2ZGNjJ6eUFVQk1fb0xBU3lSNHVIVXk2TjJLdlkyQjd0Y3hXbFNPdkNhQ0ItcWkzZExxM1pPZ0Vqck9TR3BRUkRRNlNIOXE5NTNWQzFXWU9iOXh1MGdtMTBMVlc3M1pfRkhtYU1hUElHbUdwWkx3X2d3Z1JNRFRPemVNZUxZMnFLaWhvcGUwbVpmdm1IY19zN2ZoVVdRSnZ1X2J5VktGQWZSTGRaQVIya3YyYy0xdzRzUG1lTVA5YVM5SEcyV3JlTjdoejRoa3Fyc2djQTNMdnZvV0xrcVRrSVF5UDItakVyek5QbU1hOHdWWUlXWDYwdGNqMWp4VGVXTWkxT0lyWU55aV9wTXEzbDNJQ1ZQWXhCUWRRN1dFSXpOd01hLWN0Q1BWY19ERWtyTFg1TDBJR1dZakdQSVZxZE5WVm5SS25oV2JpaXB6SWZVZTlxdWw2aWVHQTE5VzJSVDRVZXpGMkRhaUZsSERBZDBFZmtEZm9HN2xGRTRLVUdKSXJXTHFyNnAxdTdIclU0WVZBOWxMWjhJLXZrQTJxTkx1MkppbDU5SmZySXVpS0tpWlV1VUpod2pBTnI0NWNwUTViWEwxWVN3ekVZN2J2WXVkdjhLYlhncUxtbXR5azdDczREaV83TjBsR3BnWVg0aFhFTFM2d1EzeTZzMVdNektwMHU5ODNnS1huLW9qV2xHN3BGOTg0OGxGckZMcUNUTUxaQXFCVWtpUmtuSXBTMndQTXhHcFNoQUZ5VjlxckUzZ2xqejV4b1NnUGs4b05vbDFMSHcxVk85anNndkRvcUk1NkJoTHNhNTlqSkRIV0NLbEZYQjJZbVFWSC13X0ZUbmg4XzZ3eHZNeFJlMmVHaTgyMUlBb010WWZmS0RmZW43eHFRVHJzRGRRTE1RUEdFWWQ2V3RNQmgxb2Zfb0ZIMG92SUNsQ3hmRmhmcTNtMXhDMFFUYWV6eXVaYUFKdi1ReFFNVDlqTkNMdE5uN1NwOFQyb1J2RXBkSjl6NmlTT2lCSUVZNFJ3b0R4bE1xTnBvM1Q1cy1rd2k1VTlYRjh5ZWJxbkZDOVNTTjJnTE1VdEZJd0tyaGlNTExFaTZqbXo2NmFSdjFFOTJZQVZSSEcwM0d6MGx2THNCZDRRc2lScS11dmd3bXJaUUhzcTFBVk1Fd3YtcHMzV1ZQcHRucjZTU3I5TWhLU3lRemR1R3hwVXA3dUM3VVR6emR1MDdGblcyYURyRnVWM0FmS21EUWxLLS13UWY3QlUtay10amFIeW04MUprUkhwYmhJaDNLOXltcjV3djUwa0NhYkFRRzJPWDVVZnlSN2hHOEFmUzJfQTJXNnd6Y2gyY3Y5ZGN3OUJoZVFjTWtfUGtiYWJ5ZXc5dzkwbVMtM18xQ2ExSVh2dzZBQnVPQWVJdmQ5YkV1N3JlZjV3RHVrcDkxUlVtX1g5Q2w2MXQxYUVjSXFvVGNrMnFmZFMyWmpVcDZRcEpDNVNPYUhOMl96X29EcVl6UkFvd2J3U3JWRUU3WWRISWFRY0ZCdGxBUXFtazd5SEhLNlJER25kOXZocXBBVm5vbnp0M1loVWU5WGI0WEl3R21Jd3l0TlVkM1E2SF9sSWdOdjhEM1pCWFJzZnBVVV9CcXY4dFdORlFFY1RfSEV2Nkh1X01YUUtIU2EtaGoxTEg2YjZzOUhIVkY2Q21mcWJwUWtWa1AzSUJ1OEpTOC1tSEJ5UTdtc21qZ1l2MDR1MkIySWF0RmthWHBTeGtrcUVOOW5ma2Zxa2JTb3NTVHlDUVo5cVpLWWpBTUZPYXN6UWR1N3o5MnZ3S1kzMGl1eVZHOWpfXzhUNC1GSDAyaE1vNEl6bkdDTnJhaGx6YWl1RjE3VDJJa0VraHQ0cVVQaWpUUDRMWWw1a2J0TmFacDZxVjZCVThzMDRMcTFubFZXUDFuS3Z4ZVdMLWw0dldqYmQzN3oza2t4RUhSWDV2S01hcWRnaUViazI0bmpxcnE4RzNjcVhaU3pHbUVmQXBhak9mdkZDLUMwV2c1cXR2eUYyWWYzcHd0czgyY1hlcW1FQ3d0Rng5OElISklMcndVQWxJSWhhb21aVWQwUktjMS1OYTRvQV9iNThrUDNJWjl1eVpWeG05VGNITFQ3S1JuRFc3bVJCR1RjSGdVVGw5dU1VeldORUNoQktMd0RuS1F6THFVRlFaYi1xUWEyNXBka1ZzZkhITHlJOHdRSVpoTE1FU1UxYTJjMEl1TEtSTXZVYmljWTZyWTdPb3FROV9fTXRiWl90Ymt0RlhxUzZaRUdySkNYeWlMbU40a2FfUEwwTnBZRkFxU3EtRzljNWtvVXlHb1ZvLW0wek5YNy1oRG5hQlV0WVZrejgwYU8yODNqOUg5U0VrRmxGbHJvRHJfamZ4YTUySU9EeEF3Q1BaRUF6eUN4MjBaOWRwSGJXUE1fcjhXQkV1dWkwOFFydXY4Y2syVy1wR2J2REpZQWN4czdGaFBpU2NseUZQTVdiRjRIY244djNmTGVpd0RKRHlzR2Nac1dKWWhWZEpRN3d5bjdHMVZMWjNodDRuRUFlaFpDRHhwankxUU1oUE1ac0NBOElMZmtfcmNXQUh4NTFwSFE0VDVRWFo3SVkwVUZXRXR5TGF3c1NRaW1iRDAxUTRGdGhGSVplMm5CRlJfdnpuM3B5QUZvbDVWNUtlWkNQMjE1d1UxbzFWOHBuSHZlcWZrSXloeWMzVGc1NUtCZlVQRUg2TXFuYXd5cXJMVFNsVFFVUVZCVlNKbGVFSGpxWERUN1JkSmpBQ29tc2hJdHJpakg1clhFQ1IyWkVsSk5WV0UxN09XNUdfZEVhZU1KNEJwZFJYNEgwU0FnMjF2MVh0THFOMjVQTURORV85TFRwVmwtcnZqS1p0T1FZdlFaby1MeExiNmU4ak5sUl9LYUp4MjZaTUdaN3FON2hjYld2WUJ4dlNHSlFPNVBFdUk4Y2JseTBfSW40eW5PWGRyRnVCY3dZLTFhZTNpcHljOVI5UV84bVlQRV9oV0czTHh6VVZ5VDI1OGMwczNKUXVTU2JvZWhWdFlMQ0s1NXVYUUhDcmJyZ3RNZnVWVkZncEs0ODAtSFZrOV9IeV9qNF9DV0N1WXhjdkNaOFh6cGhmYjlmMFA5Nl9FSWpzY3JWNzYxUmd0Nzd3cFdDbVIzdDExbzNCTUlDNFdaNnJwOFMxMXUzVzlrLVZSZ1NwT0g1UkpacHhmU0JwLTN1VmpaRkhIMFdlV05JcDZtdHYyR0VyYjNqOTgxWk1rRlVlMVU1WW15MjRuNWNTdHZyTHp5elhwNHZucVNnVVRWTTI5RjA5Nmc4M3lMUVNUZVNsWl93bVRZdF9kdkdzc0V6RVBtZExsd2dGYW5FYlBSNkU0Z2g2clJmcUxQOFBZQWlXQVlDSzFkeE5KUjA2ZmZvLWJUV2pKY1l3bXVMZHJqT190OWtqX2VYZURRdmZxLUkxSlExRFZXdFJYeElyWEcyR2xIZXg3c3lMWGU4Q29KZl9USHRfbWFTV09TSmdWUjFZTGlhaExILVRxeFY5cEw2dnh1SnV6dGFnNVQ1VW1STGFjVFh3VFd6RWVrWHE5cE9HaGhlWEhTQmlOQ1o5ZndkcWhwczBHNy1Nbm5hSWcwSkFsSEQ1d0lZbHQtZGVzMDNGY0FsYWJwT1hrQXd0TmJvTFdLbEk4b256dmY5aUZfMno0ZVZ5V3hGekVTT2VmYWRjbGJzY1llUUZGcmJaVnRkaUN0bTFKVlpYUDd1QmYtbGJuYVJLanNCcnBESUpwdC01Mks3MlMwdU1tVkhLZmsxWG1BMWg4bDkzVTBVb3A0N3BEY2NJVUtnVXprPQ==)
+          track: beta
+  react-native-ios:
+    name: React Native iOS
+    max_build_duration: 120
+    instance_type: mac_mini
+    environment:
+      vars:
+        # Env vars for automatic iOS code signing
+        # See the following link for more details - https://docs.codemagic.io/code-signing-yaml/signing-ios/
+        XCODE_WORKSPACE: "koli.xcworkspace" # <-- Put the name of your Xcode workspace here
+        XCODE_SCHEME: "koli" # <-- Put the name of your Xcode scheme here
+        APPLE_ID: Encrypted(Z0FBQUFBQmc5Wlc1WUNzTFpUVVRSX2QxWTRITDNyMGxTSTRaZmZSVkswbVBPSXZUNjRrY3M2dm5MOEVJQk9qV25mQkhPN0JaV3JJOWw5N0hWOUxXYTVNQU9yc0lTV0JvcENaeWJsclktdWg0SjRsN2NSTThqRFE9)
+        APP_SPECIFIC_PASSWORD: Encrypted(Z0FBQUFBQmc5UzlRb2dHZzAtdm9ScGFxRkh6akVWQi1SRUU3RzhJM2g1dHpHWGg3NElIMkhKclBCeUdWaUJ3ZVR3bjhOMjhJTnJRMV9nTXdmY0Q2cjhVS2FvUFd5bHRkRW45Z2VXQXpJMGZtRVVhRlRhdXVaS2M9)
+        APP_STORE_CONNECT_ISSUER_ID: Encrypted(Z0FBQUFBQmc5U3FyUFo1bG5wd0xGWUtlNGJFQ09XMkhxcGtUSXdmR2FVZWhLRUxrell0cktSaHB6aDMxUlJzYUhaVFI4U2xvT3BNWGxubW81c1MtblV0WThDSEdjOFhBSkJIbmtfZmZ6OVd3dnVJeU0zVVRfTXVoZkk3YTFMTGZ2SnZTRlhKclhPelQ=)
+        APP_STORE_CONNECT_KEY_IDENTIFIER: Encrypted(Z0FBQUFBQmc5U3B4eW9xR3otVThYMDNpLTZTQzRCTWhNSmh1ZnZCWlV4NXo2UktybHZUUl9jQnNzcGctOHFoUWdRMEZHcHV6MEFKRFExN3BCdXJSdXduT0daWExScnNKVnc9PQ==)
+        APP_STORE_CONNECT_PRIVATE_KEY: Encrypted(Z0FBQUFBQmc5U3JnVjNKZDRkeDBQVENmTnJac3UwbVc0VHEyV29ZbHdidk1ZMWhFXzJscDNoMG5RSnlnVTQtYV9iZGdiRF9ZVzV4VFdKYUFSVjVUbmtGRldIbklQUW9jbDQ4WFhHa1Jka1J1MlB3b2FZZl80Z0JIS0w5ZkZoNjlYMDlSdTJ0aUlCQm10WERyd2tqQ3RIOHlQOW5Nc3BJRENfWl95dktOeVJSTVZCYmtNdkZ2UTM1TVgwMWttcFhYNnZZWnVIN0xMS21IdVRnTVl3SGVVS1R2N3BtWDk0QVZqQ3VNWTE1V2Z3dXdoaG9PaVpmZFpqQXBsLXVEbEl6NlhrdGxGUUR1dXNPWFkxSDNyUF9QeFcyOGxBS3N3Q3p0dmVPR0ljS1AySGx6MjkzbHhQbFJra3JIM2xfUFlmam9oT2FwNDU5czFPWWNwTnBBY1dRbkJIRlVVR251U2xnYUpsclNTQ1lvaloyVzBvdU1lZnFTeW5GMVNtcFRENU1NeE5RUXJ6N01CbTlSV1F2Xy1LVUVhc21rLWUtN3dsRXcxU001bDI1QU9qRVdvNnVXNTdoWlQxMD0=)
+        CERTIFICATE_PRIVATE_KEY: Encrypted(Z0FBQUFBQmc5WTBTSy1wSWdKYTlLV1hXRy1nR2tXb2dkeklGRDBONFpIcUZOQnlMMEh5a2VZU0tidTlWNUk0Rl93NkJyR1Jra0pxNVhfN2xwOXlkLThCTVdMa09qWkpCUVlzZmxReExsTjVrRWZiZWxvZDIxM0NRMUpvdm5OMTRFYk51RHhyUU1hdFpFOFBwS3htVWo2cS1pc1VuZ3lzNERSS1czaWd1Q25MTmFtVERXbW9NdVF3MEtPaml2cGNRYWQtZkRKNzZtMTF1MkZqWTY5UERzMnl6NTBJOHNYenJ6LUFUS3pYNGlhT1QtcGJXUzBTMHludGN6X0M2NElpeGtfbGI4ZnFFSVExaWc4N3ViRW5RMnNQWEttX0lmRXRsSXZXSmVINGFWZ1RfekE2WnJ5WDhXNVhvMFRCN1llMFluU19takJLMzF4OGdTWGtjY1I0c3VJZGR3VzUxVlBSOWpOZFVoOFpOVWtyQVBLMkVHa05TTG5EVTFmRGF0MkVUQVpITDFNNVVmX1NKRHFFckt6QWtxTFJMeVo5WU4wc093MkFnTUVWNl9XakQtdWhJU2JscHFEd3g0T250MF9IenZwVFNlQ2lldGpPVHBVcWtRa1o1WHBISzYzcXBmb0IxUWNxM2x2ZlNmSkhfcTZKeERtaXU2bW12Nmt4WUNTYXkzeXVxQWVFSGVEWklOSnNiRWVyeFQ3TVBlVldITnpfSUtsa1Q5M1pGTmdXZjctbmZHZUFIYlNLTVA4WTRsUzMyUktxc1o0djQ4NTBkUkd6a3QwRXRMMFFVUERkUkNLbmdLeVQ3TDJ1V3NobUJwRTUzV01IOC1EaDlSOEd6V1AzZGcxdXdQVG9rNFBmcXpiMVVldVl2WHlsRDQzMUhOQThHeWRCSkVpNExTUTFsU0xhYmVSSU1RMTZIclZKdFg1bEtMalo5dnF0Vl9CNUNMVmdFUHdLRVF4QTY5S0hFZzhyQTA0NlpqWjVUS3lQUFJxNUNEbU9NaGlMcUtLV09abzRqbFg5SVVoSndUV0d1cWhUbDktTG1RUUh3M1FBblBqaldFM0tXajdnN0tQR0ZNZE1kUzRtN2RvSlFmTW05VHQ3Tk5lZmpyNmRLNml4QldmeVdna3ZfV3ptSVhpX3FGM3dqMTZjeU84UFpUVlo2bW5DU1FFMWJtQnlIMDlHcHhqdFRpN3NMMG1qQVVhSmZnT2VSNExQb0djUUpWNHF5bnp2YS1uanpKX1dPLXo2eTFmUmhzVnZMdks3d1NDU19NNVFyb2hGWVpuQ2VBOENRdDFIV2JRZnVfVWZleGdONVNKNk12a1NKdmJwbjN4REhNUzJYbkItdGRsb3lVbi1PMkVVa3BFOHJqZUllS3NvTXZFWmFkRTJHWmJKVl85UGl1aEhqRHNzaUN4UlhYd3d1WjBnZXk2cVppQzl5Z3hxVGtGWTd3NVpPS2VsWFhqYlB6Nl9CYzB0MkRBdjJQb3pLcXh4MlMtdEROcW5RS0thTThqVElVUWJxakpzTi02YjdBSTlNa1oxb1ZrYzZXS01mempwT3hWWE9qM3QwRWJ4N3NBdkpVX2xBSkhfdTVKZC0zbDVIVnZkVlR1cEtTTzhGT3Q2ZThOUEt1TXJPTTMya080eUplUHlIVkZvUnBleUV4eTZKbW1aSjRvRkNVVzhaLXd2NWhtTXM0WXByUktnY0s3cnJkOEtQZ1hoQUFPdDJ2S2FLMVU5MFJMOXRlNVdlRWhTb0JUdnp2OFZVSDR1Q2dHcGViM3hvMUNxVDRmWDk2YzdWNzRjdUhobk42dzZuWldyMi1vb1RRNHlnN0ZicDdJbGlmV0V2Q0p4OW8tVy1yNDFGT0FwckJsODk1LU9YdWlOX0lhNHRyVHFKNVA3cWpTYThGU2RFVUxqR3RvQUwxbms1b3pEVEVuQV9qRjYyTmt6bi1EaWZ3U3lGeVZTUGdyYnh2Vmx3c0JROTBQR01fRlVCbkZ3dEJncFJmZWRlLUppX3JOWmFFRlhjUjhVb19jdEk4Uk1xcXlrb1hZWm1ReDNjdTdnM3Z0TnktUm8yOTFQZm5iQ09ReHpmYUpISG5Jck9YVGE5N25oM0oycmNLXzJtXy1HYXFwWWdsUDAtM0Y4X29qVzhuaFZFQzFTdGlTNlpBS1E1R0djSUFmRmt6QmtsdHgwWk54aGdTUldISFB1ajRjODJrQjFWYUlpd1Zad0tVY2I1VGo0NTM1WEZ4VWZicXBGTHI3NkJ2LTA5czdHY2gxbk5vcFB1aVNGdGhHa3VQOTVJbThuNElKd3FXSG9vR0kzUE5HZkhVZ1J6TC1Jakx6b0ZabzVUQ1JzcUt1RDBFV1NwOWo4UV9VVEplZzY4STQ3dThkMURsdlJsdGxEUTBSRjk5VXcwb3c1dUxvWm9jdFFMMGlBNFRlaVlFUzh0QWJ5YTFqU3lYTHhlRmNCTEdna0FWcl9TTGtFRmFxTTE4bHFtbUxfdVlrS25fVzU2YWlCeXFmRXZYTUZ6R2FpWWg0NEM1OThVMlhDejJOTUl5eGNzZkJ3TUdZQmVNUWVBU3RaNi1Ud09SdW9OV28xT2ZveEJsaFNVbUg2THkwMzRWVFdCTTROR2hFZTF0ZFNfaWpmNkFUYU1hUXRiSUM2bXFOMXhBUjdhX1JTQ21PQ0h5dlNPTVhrc3ZxUUZCWEJGMk05WVIzYTZyN0txNEJCQmMzVUUwQ0VyRWtaRENvaG1yTGJ0Z1ZWSGoxSHlQT1RUejNxakRjTWY5a3Z5V0t2bmMtUW93X3lWbDFPUE1NVVI4UHpvaTdsU0dKajJnSm93WFZha1pNQUVzN1NlYUhQQVRJZTZwQXJkelYzY1lsMm91Mm9iejJacVAwalRtcHpsTlNQZDNCUThIR1RVdjJhc2dIM0pzMGV4eHd0amdMczluNWVHdlJQV3ZyVDg2cFZ1THJobktPOUlNNVpkaE96NXV4aVY3UGVVcjBaWG4xbFVpZWdBMjFkOE9Td3Q5WVVadWY4VUEzb1JqbjgtU0QtZDdnekZ4UDVRSWIzVVJZNXZrV2kxdUsxdF80SW8za2dua2FHNTVsLTFBZUlJS0xnZFltRy1JVUZaeVpTV3gxV2pWeEJsaUFVODR3enBqQnhDWWhyRzdtZz0=)
+        BUNDLE_ID: "co.koli" # <-- Put your Bundle Id here e.g com.domain.myapp
+        APP_STORE_APP_ID: 1458269685 # <-- Put the app id number here. This is found in App Store Connect > App > General > App Information (https://appstoreconnect.apple.com/apps/1458269685/appstore/info)
+      node: latest
+      xcode: latest
+      cocoapods: default
+    triggering:
+      events:
+        - push
+        - tag
+        - pull_request
+      branch_patterns:
+        - pattern: develop
+          include: true
+          source: true
+    scripts:
+      - name: Install npm dependencies
+        script: |
+                    npm install --legacy-peer-deps
+      - name: Install CocoaPods dependencies
+        script: |
+                    cd ios && pod install
+      - name: Set up keychain to be used for codesigning using Codemagic CLI 'keychain' command
+        script: |
+                    keychain initialize
+      - name:
+        script: |
+          # For information about Codemagic CLI commands visit: https://github.com/codemagic-ci-cd/cli-tools/blob/master/docs/app-store-connect/README.md
+          # For details about the --type paramater below - https://github.com/codemagic-ci-cd/cli-tools/blob/master/docs/app-store-connect/fetch-signing-files.md#--typeios_app_adhoc--ios_app_development--ios_app_inhouse--ios_app_store--mac_app_development--mac_app_direct--mac_app_store--mac_catalyst_app_development--mac_catalyst_app_direct--mac_catalyst_app_store--tvos_app_adhoc--tvos_app_development--tvos_app_inhouse--tvos_app_store
+          app-store-connect fetch-signing-files "$BUNDLE_ID" --type IOS_APP_STORE --create          
+      - name: Use system default keychain
+        script: |
+                    keychain add-certificates
+      - name: Increment build number
+        script: |
+          #!/bin/sh
+          set -e
+          set -x
+          cd $FCI_BUILD_DIR/ios
+          # agvtool new-version -all $(($BUILD_NUMBER + 1))
+          agvtool new-version -all $(($(app-store-connect get-latest-testflight-build-number "$APP_STORE_APP_ID") + 1))          
+      - name: Set up code signing settings on Xcode project
+        script: |
+                    xcode-project use-profiles --warn-only
+      - name: Build ipa for distribution
+        script: |
+                    xcode-project build-ipa --workspace "$FCI_BUILD_DIR/ios/$XCODE_WORKSPACE" --scheme "$XCODE_SCHEME" 
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+    publishing:
+      # See the following link for details about email publishing - https://docs.codemagic.io/publishing-yaml/distribution/#email
+      email:
+        recipients:
+          - user_1@example.com
+          - user_2@example.com
+        notify:
+          success: true     # To not receive a notification when a build succeeds
+          failure: false    # To not receive a notification when a build fails
+      slack:
+        # See the following link about how to connect your Slack account - https://docs.codemagic.io/publishing-yaml/distribution/#slack
+        channel: '#channel-name'
+        notify_on_build_start: true   # To receive a notification when a build starts
+        notify:
+          success: true               # To receive a notification when a build succeeds
+          failure: false              # To not receive a notification when a build fails
+      app_store_connect:
+        apple_id: $APPLE_ID
+        password: $APP_SPECIFIC_PASSWORD

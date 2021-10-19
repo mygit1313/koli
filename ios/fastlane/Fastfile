@@ -1,0 +1,34 @@
+private_lane :ios do
+  desc "Build IPA of #{APP_NAME}"
+  
+  #copy modified AppDelegate.m file
+  sh("cp -rf ../profiles/#{PROFILE_NAME}/ios/AppDelegate.m ../ios/KOLI/")
+  
+  #run react-native command
+  sh("cd .. && react-native bundle - entry-file index.js - platform ios - dev false - bundle-output ios/main.jsbundle - assets-dest ios && cd fastlane")
+  
+  ensure_xcode_version(version: '11.5')
+  
+  update_app_identifier(
+    #Optional path to xcodeproj, will use the first .xcodeproj if not set
+      xcodeproj: "ios/koli.xcodeproj", 
+    #Path to info plist file, relative to xcodeproj
+      plist_path: "../ios/KOLI/Info.plist", 
+    #The App Identifier
+      app_identifier: "co.koli.ios.staging.#{PROFILE_NAME}" 
+  )
+  
+  update_project_provisioning(
+    xcodeproj: "ios/koli.xcodeproj",
+    profile:"{PROFILE_NAME}.mobileprovision",
+    target_filter: "KOLI", 
+    build_configuration: "Release"
+ )
+ 
+ sh ("sed -i 's/VERSION_OF_APP/1.2.3/g' ../profile/PROFILE_NAME/.env")
+ 
+ gym(
+  export_xcargs: "-allowProvisioningUpdates",
+ )
+  
+end

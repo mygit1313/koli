@@ -1,0 +1,2 @@
+brew cask install fastlane
+cd ios && fastlane init && cd ..

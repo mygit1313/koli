@@ -1,0 +1,2 @@
+rm -rf node_modules & npm i & cd ios && rm -Rfd Pods & rm Podfile.lock & pod install && cd ..
+
